@@ -1,7 +1,5 @@
 # Blank function (Python)
 
-![Architecture](/sample-apps/blank-python/images/sample-blank-python.png)
-
 The project source includes function code and supporting resources:
 
 - `function` - A Python function.
@@ -64,11 +62,7 @@ Let the script invoke the function a few times and then press `CRTL+C` to exit.
 
 The application uses AWS X-Ray to trace requests. Open the [X-Ray console](https://console.aws.amazon.com/xray/home#/service-map) to view the service map. The following service map shows the function calling Amazon S3.
 
-![Service Map](/sample-apps/blank-python/images/blank-python-servicemap.png)
-
 Choose a node in the main function graph. Then choose **View traces** to see a list of traces. Choose any trace to view a timeline that breaks down the work done by the function.
-
-![Trace](/sample-apps/blank-python/images/blank-python-trace.png)
 
 # Cleanup
 To delete the application, run `5-cleanup.sh`.
